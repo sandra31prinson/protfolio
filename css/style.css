@@ -1,2 +1,38 @@
-body{background-color: linear-gradient(90deg,#a8edea 0% , #fed6e3 100%);}
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body { 
+    background: linear-gradient(90deg,#c8fbd5 0% , #ffffff 100%); font-weight: 0;}
+
+header{
+    background: white;
+}
+
+
+
+header a{ 
+    text-decoration: none; 
+    padding-top: 1rem; 
+    padding-left: 2.5rem;
+     font-weight:400; 
+     color:black;
+    }
+
+    header a:hover{ 
+         
+         color: rgb(35, 122, 67) ;
+        }
     
+    header button:hover{
+        background:linear-gradient(90deg,#88e7a0 0% , #fb99c0 100%); 
+        color: black;
+        }
+
+    
+
+
+span{
+    color: rgb(35, 122, 67) ;
+}
