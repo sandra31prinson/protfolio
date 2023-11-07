@@ -26,6 +26,12 @@
   integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT" crossorigin="anonymous"></script>
 
 
+  <!-- -------icons link-------- -->
+  <!-- <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"> -->
+  <script src="https://kit.fontawesome.com/d59bc2353f.js" crossorigin="anonymous"></script>
+
+  <!-- <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+  <script src="https://kit.fontawesome.com/097d74f521.js" crossorigin="anonymous"></script> -->
 
 </head>
 <body>
@@ -33,33 +39,77 @@
     <header class="bg-light fixed-top shadow-lg">
         <div class="container-fluid col-xl-12 col-lg-12 col-md-12">
             <div class="container pt-2">
-            <div class="row">
-                <div class="col-xl-2 col-lg-2 col-md-2">
+            <div class="row">           
+                <div class="col-xl-2 col-lg-2 col-md-2 col-xxl-2 p-0">
                     <h4 class="text-dark fw-bold fs-4">
                         <img src="images/logo.png">ANDRA</h4>
-                        
                 </div>
-               
-                <div class="col-xl-8 col-lg-8 col-md-8  d-flex  justify-content-end d-lg-flex d-none d-md-none d-sm-none">
-                    
-
+              
+                <div class="col-xxl-8 col-xl-8 col-lg-8 col-md-8  
+                d-flex  justify-content-end d-lg-flex d-none d-md-none d-sm-none">
                 <a href=""><span>Home</span></a>
                 <a href="">About</a>
                 <a href="">Skills</a>
                 <a href="">Experience</a>
                 <a href="">contact</a>
-                
-                    
+              </div>
 
-                </div>
-                
-                <div class="col-xl-2 col-lg-2 col-md-2 text-end my-2 d-md-none d-lg-flex d-sm-none d-none">
+              
+            <div class="col-xl-2 col-lg-2 col-md-2 text-end
+            my-auto mx-auto d-md-none d-lg-flex d-sm-none d-none">
             <button class="p-4 pt-2 pb-2 rounded-3 btn btn-outline-success">Resume</button>
+            </div>
 
-      
+
+
+
+
+
+
+
+<!--toggle part-->
+<div class="col-1 col-md-1 col-sm-1 col-xm-1 toggle  
+fs-1 d-block d-lg-none d-md-block d-sm-block d-xm-block p-0 align-content-sm-end d-flex">
+    <div id="mySidenav" class="sidenav">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <div>
+            <div class="mb-1">
+               <div>
+                    
+                    <h6><a href="">Home</a></h6>
+                    <h6><a href="">About</a></h6>
+                    <h6><a href="">Skills</a></h6>
+                    <h6><a href="">contact</a></h6>
+                 
+               </div>
             </div>
-        
-            </div>
+            
+        </div>
+    </div>
+     <span class="d-flex align-self-end  mt-2" onclick="openNav()"> <i class="fa-solid fa-bars"></i></span>
+</div>
+
+<script>
+function openNav() {
+document.getElementById("mySidenav").style.width = "100%";
+}
+
+function closeNav() {
+document.getElementById("mySidenav").style.width = "0";
+}
+</script>
+
+
+
+</div>
+</div>
+
+
+</div>
+
+       
+        </div>
+            
             </div>
         </div>
 
@@ -67,7 +117,10 @@
     </header>
 
 
-<section>fgdfgd</section>
+<section>fgdfgd
+    
+</section>
+
 
 
 
